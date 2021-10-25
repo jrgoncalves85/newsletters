@@ -1,0 +1,506 @@
+body {
+color:#5D5B46;
+background:#FCF8D6;
+font:normal normal 14px/140% Arial, Geneva, Verdana, sans-serif;
+margin:0;
+padding:0;
+}
+
+div,p,ul {
+margin:0;
+padding:0;
+}
+
+ul {
+list-style-type:none;
+}
+
+h1 {
+display:hideen;
+}
+
+h2 {
+color:#D80000;
+font:26px "Trebuchet MS",Arial,Helvetica,sans-serif;
+text-align:justify;
+margin:5px 0;
+}
+
+h3{
+color: #0000D8;
+font: bold 15px Arial,Helvetica,sans-serif;
+margin: 0;
+padding: 30px 0 0;
+text-transform: uppercase;
+}
+
+h4 {
+background:url("images/bullet1.gif") no-repeat scroll 0 35px transparent;
+color:#0000D8;
+font:16px Arial,Helvetica,sans-serif;
+text-indent:20px;
+margin:0;
+padding:30px 0 0;
+}
+
+#header {
+width:778px;
+height:228px;
+position:relative;
+margin:0 auto;
+}
+
+#headerleft {
+width:46px;
+height:228px;
+float:left;
+background:url("images/leftfolder.png") 0 0 no-repeat;
+}
+
+#headermiddle {
+width:686px;
+height:228px;
+float:left;
+}
+
+#barfolder {
+background:url("images/centerfolder.jpg") repeat scroll 0 0 transparent;
+border-bottom:1px solid #CBC8A1;
+height:33px;
+position:absolute;
+top:0;
+width:686px;
+margin:0 auto;
+}
+
+#navbar {
+height:28px;
+position:absolute;
+top:175px;
+width:690px;
+margin:0 auto;
+}
+
+#navbar ul {
+height:28px;
+left:10px;
+position:absolute;
+width:660px;
+}
+
+#navbar ul li {
+height:28px;
+width:110px;
+float:left;
+}
+
+#navbar ul li a {
+border:medium none;
+color:#3D2916;
+display:block;
+font:bold 14px/28px Arial, Geneva, Verdana, sans-serif;
+height:28px;
+padding-top:25px;
+text-align:center;
+text-decoration:none;
+width:110px;
+text-shadow:1px 1px 2px #DDD;
+}
+
+#navbar ul li a:hover {
+background:url("images/marcador.png") no-repeat scroll 50px 0 transparent;
+padding-top:25px;
+width:110px;
+height:28px;
+display:block;
+text-shadow:1px 2px 2px #FFF;
+text-align:center;
+text-decoration:none;
+border:none;
+}
+
+#navbar ul li.set {
+background:url("images/marcador.png") no-repeat scroll 50px 0 transparent;
+border:medium none;
+color:#3D2916;
+display:block;
+font:bold 14px/28px Arial, Geneva, Verdana, sans-serif;
+height:28px;
+padding-top:25px;
+text-align:center;
+text-decoration:none;
+width:110px;
+}
+
+#headerbody {
+background:url("images/centerfolder.jpg") repeat scroll 0 0 transparent;
+border-bottom:1px solid #CBC8A1;
+border-top:1px solid #CBC8A1;
+color:#FFF;
+height:185px;
+left:46px;
+position:absolute;
+top:41px;
+width:686px;
+}
+
+#headercontent {
+background:url("images/logo.png") repeat scroll 0 0 transparent;
+font-size:0;
+height:70px;
+left:25px;
+position:absolute;
+top:30px;
+width:370px;
+}
+
+#headercontent p {
+color: #5D5B46;
+display:block;
+font-size:20px;
+font-style:italic;
+left:10px;
+position:absolute;
+text-shadow:1px 1px 0 #FFF;
+top:65px;
+width:375px;
+}
+
+#headercontent p span.largetext {
+font-size:18px;
+line-height:20px;
+}
+
+#headermiddlered {
+width:161px;
+height:142px;
+background:url(images/red-image.jpg) 0 0 no-repeat;
+position:absolute;
+top:13px;
+left:478px;
+}
+
+#headerlogo {
+display:block;
+float:right;
+margin:5px 45px 0;
+}
+
+#headerright {
+width:46px;
+height:228px;
+float:left;
+background:url(images/rightfolder.png) 0 0 no-repeat;
+}
+
+form{
+position:relative;
+margin:30px;
+}
+
+fieldset {
+margin: 0 auto;
+text-align: center;
+width: 300px;
+}
+
+fieldset legend {
+font-size:14px;
+font-weight:700;
+padding:0 7px;
+}
+
+.botao {
+float: right;
+margin: 0 30px 15px;
+width: 80px;
+}
+
+label {
+display:block;
+margin:15px 30px 0 0;
+}
+
+input:focus {
+background:#FFF8B4;
+}
+
+#bodycontent p {
+text-align:justify;
+padding:10px 0 0;
+}
+
+#bodycontent p span {
+font-weight:700;
+}
+
+#bodycontent p.date {
+border-bottom:1px dotted #CCC;
+color:#888;
+font-size:13px;
+font-style:italic;
+margin-top:25px;
+text-align:right;
+width:700px;
+padding:0;
+}
+
+#bodycontent p.more {
+width:102px;
+height:16px;
+margin:0 0 0 582px;
+padding:0 0 14px;
+}
+
+#bodycontent p.legend {
+font:bold italic 15px Arial,Helvetica,sans-serif;
+text-align:center;
+margin-top:15px;
+}
+
+#bodycontent p.legend_bottom{
+color: #4444FF;
+font: italic 15px Arial,Helvetica,sans-serif;
+margin-top: -20px;
+text-align: center;
+	}
+
+#bodycontent p.more a {
+width:102px;
+height:16px;
+display:block;
+background:#F2F0DC;
+color:#D80000;
+font:13px/16px "Trebuchet MS",Arial, Helvetica, sans-serif;
+font-weight:700;
+text-decoration:none;
+}
+
+#bodycontent p.more a:hover {
+background:#F2F0DC;
+color:#7E0202;
+text-decoration:none;
+}
+
+#bodycontent p.border {
+background:url(images/dot-line.gif) 0 0 repeat-x;
+height:1px;
+padding:0 0 14px;
+}
+
+table {
+position:relative;
+margin:0 auto;
+top: 20px;
+}
+
+table a {
+text-decoration:none;
+}
+
+tr,td {
+font:normal 15px Arial, Helvetica, sans-serif;
+text-decoration:none;
+padding:5px 10px;
+}
+
+.img {
+border:none;
+text-align:center;
+margin:10px 0;
+}
+
+.lista {
+list-style-type:disc;
+margin:10px 40px 5px;
+}
+
+.assinatura {
+border-top: 1px dotted #CCC;
+margin-top: 5px;
+font:normal 13px/120% Arial, Geneva, Verdana, sans-serif;
+font-style:italic;
+color:#5D5B46;
+}
+
+.titulo {
+width:500px;
+text-decoration:none;
+font:bold 14px Verdana, Arial, sans-serif;
+}
+
+.data {
+font:bold 14px Verdana, Arial, sans-serif;
+}
+
+.cor {
+background:#EEE;
+}
+
+.itaneg {
+font:italic bold 14px Arial,Helvetica,sans-serif;
+margin:15px 0 0;
+}
+
+#footer {
+width:778px;
+position:relative;
+margin:0 auto;
+padding:30px 0 0 8px;
+}
+
+#footerleft {
+width:375px;
+float:left;
+background:url(images/bodybottombg.gif) 0 0 no-repeat #FEFDF0;
+color:#D80000;
+border-bottom:1px solid #CDCAA3;
+border-left:1px solid #CDCAA3;
+border-right:1px solid #CDCAA3;
+margin:0;
+}
+
+#footerleft h2 {
+width:250px;
+height:58px;
+background:url(images/icon1.jpg) 0 0 no-repeat;
+font:26px/26px "Trebuchet MS",Arial, Helvetica, sans-serif;
+margin:22px 0 0 41px;
+padding:0 0 0 65px;
+}
+
+#footerright {
+width:375px;
+float:left;
+background:url(images/bodybottombg.gif) 0 0 no-repeat #FEFDF0;
+color:#D80000;
+border-bottom:1px solid #CDCAA3;
+border-left:1px solid #CDCAA3;
+border-right:1px solid #CDCAA3;
+margin:0 0 0 8px;
+}
+
+#footerright h2 {
+width:250px;
+height:58px;
+background:url(images/icon2.jpg) 0 0 no-repeat;
+font:26px/26px "Trebuchet MS",Arial, Helvetica, sans-serif;
+margin:22px 0 0 41px;
+padding:0 0 0 65px;
+}
+
+#footercredit {
+height:50px;
+background:url("images/footerbg.png") repeat-x scroll 0 0 transparent;
+color:#fff;
+font:13px/20px "Trebuchet MS",Arial, Helvetica, sans-serif;
+position:relative;
+clear:both;
+margin:0 auto;
+padding:60px 0 0;
+}
+
+#credit ul {
+width:480px;
+height:20px;
+position:relative;
+margin:0 auto;
+}
+
+#creditli {
+float:left;
+}
+
+#creditul li a {
+color:#fff;
+background:#3B3B3B;
+text-decoration:none;
+font-size:12px;
+padding:0 10px;
+}
+
+#credit p.copyright {
+width:450px;
+position:relative;
+text-align:center;
+background:#3B3B3B;
+color:#fff;
+font-size:12px;
+margin:0 auto;
+}
+
+#bodycontent,#credit {
+width:700px;
+position:relative;
+margin:0 auto;
+}
+
+#footerleft h2 span,#footerright h2 span {
+font-size:20px;
+background:#FCFBED;
+color:#5D5B46;
+}
+
+#footerleft ul,#footerright ul {
+width:290px;
+margin:10px 0 10px 50px;
+}
+
+#footerleft ul li,#footerright ul li {
+width:290px;
+height:30px;
+}
+
+#footerleft ul li a,#footerright ul li a {
+background:url("images/bullet1.gif") no-repeat scroll 0 3px #FEFDF1;
+color:#2F2A28;
+font-size:14px;
+height:30px;
+line-height:30px;
+text-decoration:none;
+width:210px;
+padding:0 20px;
+}
+
+#footerleft ul li a:hover,#footerright ul li a:hover {
+color:#2F2A28;
+line-height:30px;
+}
+
+#footerleft p.more,#footerright p.more {
+width:270px;
+height:21px;
+margin:10px 0 25px 50px;
+padding:0;
+}
+
+#footerleft p.more a,#footerright p.more a {
+width:270px;
+height:21px;
+display:block;
+background:url(images/bottom-more-bg.gif) 0 0 no-repeat #FEFDF1;
+color:#fff;
+font:13px/20px "Trebuchet MS",Arial, Helvetica, sans-serif;
+font-weight:700;
+text-align:center;
+text-decoration:none;
+}
+
+#footerleft p.more a:hover,#footerright p.more a:hover {
+background:url(images/bottom-more-bg.gif) 0 0 no-repeat #FEFDF1;
+color:#FDF6B6;
+text-decoration:none;
+}
+
+#wc3 {
+border:medium none;
+display:block;
+float:right;
+position:relative;
+text-decoration:none;
+margin:-48px 20px;
+}
+
+table a:hover,#credit ul li a:hover {
+text-decoration:underline;
+}
